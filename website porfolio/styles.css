@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Secular One', sans-serif;
+    font-weight: lighter;
+}
+
+.logo {
+    height: 70px;
+    margin: 10px 50px;
+}
+
+/* HOMEPAGE */
+body {
+    background-color: #dddad2;
+
+}
+
+.mainnav {
+    background-color: whitesmoke;
+    height: 90px;
+    width: 100%;
+    z-index: 900;
+    flex-direction: row;
+    display: flex;
+    position: absolute;
+}
+
+.navtitle {
+    background-color: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #d59065;
+    margin: 45px 70px ;
+    cursor: pointer;
+}
+
+.sidebar {
+    z-index: 1000;
+    height: 100vh;
+    width: 75px;
+    position: -webkit-sticky; /* for Safari users */
+    position: sticky;
+    float: right;
+    background-color: #d59065;
+}
+    
+.sidebar div {
+    padding: 8px;
+    font-size: 24px;
+    display: block;
+}
+    
+.body-text {
+    margin-right: 150px;
+    font-size: 18px;
+}
+
+.homecontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 800;
+    padding-top: 50px;
+}
+
+h1 {
+    color: #405A56;
+    padding-top: 100px;
+}
